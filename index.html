@@ -32,18 +32,17 @@
                 <p class="name" style="text-align: center;">
                   Zhiwei Zheng
                 </p>
-<!--                <p>I'm a research scientist at <a href="https://ai.google/research">Google Research</a> in San Francisco, where I lead a small team that mostly works on <a href="https://www.matthewtancik.com/nerf">NeRF</a>.-->
-<!--                </p>-->
-                <p>I am currently a research intern at University of Pennsylvania focusing on the robust SLAM and NeRF problem, advised by <a href="https://www.cis.upenn.edu/~mingminz/">Prof. Mingmin Zhao</a> and <a href="https://lingjie0206.github.io/">Prof. Lingjie Liu</a>.
+
+                <p>I am currently a research intern at University of Pennsylvania focusing on the Robust Robot Perception problem, advised by <a href="https://www.cis.upenn.edu/~mingminz/">Prof. Mingmin Zhao</a> and <a href="https://lingjie0206.github.io/">Prof. Lingjie Liu</a>.
                 </p>
                 <p>
-                  Prior to that, I received my M.Eng. in EECS from University of California, Berkeley and B.Eng. in Automation from Huazhong University of Science and Technology. I also spent one year in <a href="https://pjlab-adg.github.io/">Autonomous Driving Group</a> @ Shanghai AI Laboratory.
+                  Before that, I received my M.Eng. in EECS from University of California, Berkeley and B.Eng. in Automation from Huazhong University of Science and Technology. I also spent one year in <a href="https://pjlab-adg.github.io/">Autonomous Driving Group</a> @ Shanghai AI Laboratory and was fortunate to be advised by  <a href="https://liyikang.top/">Dr. Yikang Li</a>.
                 </p>
                 <p style="text-align:center">
                   <a href="mailto:zhiwei.zheng@berkeley.edu">Email</a> &nbsp;/&nbsp;
-<!--                  <a href="data/JonBarron-CV.pdf">CV</a> &nbsp;/&nbsp;-->
                   <a href="https://scholar.google.com/citations?user=7kWe1i4AAAAJ&hl">Scholar</a> &nbsp;/&nbsp;
-                  <a href="https://github.com/jonbarron/">Github</a>
+                  <a href="https://github.com/zzwalala">Github</a> &nbsp;/&nbsp;
+                  <a href="./cv/ZhiweiZheng-Resume.pdf">Resume</a>
                 </p>
               </td>
               <td style="padding:2.5%;width:40%;max-width:40%">
@@ -57,8 +56,7 @@
               <td style="padding:20px;width:100%;vertical-align:middle">
                 <h2>Research Interest</h2>
                 <p>
-                  My interests lie in the fields of computer vision and robotics. More specifically, I am curious about enabling more robust perception and manipulation for robots in unbounded 3D scenes.
-                </p>
+                  My research interests lie in the fields of <b>3D computer vision</b> and <b>robotics</b>. Specifically, I am curious about how we can develop robust algorithms and tools that enable robots to well handle <b>perception</b> and <b>control</b> problems in <b>unstructured and unbounded real-world scenes</b> and <b>safely interact with the environment</b>, leveraging <b>representation learning</b>, <b>large language/vision models</b> and <b>multi-modal fusion</b>.                </p>
               </td>
             </tr>
           </tbody></table>
@@ -81,13 +79,13 @@
               <td width="75%" valign="middle">
                 <strong>VeloVox: A Low-cost and Accurate 4D Object Detector with Single-frame Point Cloud of Livox LiDAR</strong>
                 <br>
-                Tao Ma*, <strong>Zhiwei Zheng*</strong>, Hongbin ZHou, Xinyu Cai, Xuemeng Yang, Yikang Li, Botian Shi, Hongsheng Li
+                Tao Ma*, <strong>Zhiwei Zheng*</strong>, Hongbin Zhou, Xinyu Cai, Xuemeng Yang, Yikang Li, Botian Shi, Hongsheng Li
                 <br>
                 Submitted to ICRA 2024.
                 <br>
 <!--                <a href="data/BarronPRL2009.bib">bibtex</a>-->
                 Paper[coming soon], code[coming soon]
-                <p>We propose a two-stage module to enhance the spatial-temporal point feature interaction along the time dimension, predicting the object's speed while improving the detection's performance with only one frame of point cloud.</p>
+                <p>We proposed a new temporal-spatial module to extract then combine the temporal and spatial information embedded in 4D(x, y, z, t) point clouds, achieving a better velocity estimation and object detection compared with other SOTA methods. We also simulated the 4D point clouds in the CARLA and evaluated the proposed method on the synthesized dataset, proving its robustness.</p>
               </td>
             </tr>
           </tbody></table>
@@ -105,25 +103,24 @@
 
           <tr>
             <td style="padding:20px;width:25%;vertical-align:middle">
-              <img src="images/l2p.png" alt="prl" width="160" height="160">
-            </td>
-            <td width="75%" valign="middle">
-              <strong>Exploring RL Related 'Teaching Computers to Paint' and Decision Transformer</strong>
-              <br>
-              <a href="https://drive.google.com/file/d/1jgdS6O16WLCZEX2jW-GSHvttIEo3Fuww/view?usp=sharing">Report</a>
-              <p>Evaluating Decision Transformer in terms of data requirements and teaching it how to paint given one image.</p>
-            </td>
-          </tr>
-
-          <tr>
-            <td style="padding:20px;width:25%;vertical-align:middle">
               <img src="images/cancer.png" alt="prl" width="160" height="160">
             </td>
             <td width="75%" valign="middle">
               <strong>Generalizable Multi-Task Extraction of Pathology Reports</strong>
               <br>
-              Paper[coming soon]
-              <p>Building a LSTM with attention model to improve breast cancer pathology information extraction and performing few-shot prompt-based classification with UCSF LLM. We won the <a href="https://funginstitute.berkeley.edu/capstone-showcase-2023/"><strong>Fung Institute Mission Award</strong></a>, among ~75 teams in total.</p>
+              Submitted one paper to the Journal of the American Medical Informatics Association(JAMIA), which is currently under review.
+              <p>Built a LSTM with the Attention mechanism, Asynmmetric loss and Multi-Task Learning Strategy to do multi-label classification tasks, including 11 sub-tasks, while handling the label imbalance problem, achieving a 0.83 macro F1 score on the test set. We won the <a href="https://funginstitute.berkeley.edu/capstone-showcase-2023/"><strong>Fung Institute Mission Award</strong></a>, among ~75 teams.</p>
+            </td>
+          </tr>
+
+          <tr>
+            <td style="padding:20px;width:25%;vertical-align:middle">
+              <img src="images/l2p.png" alt="prl" width="160" height="160">
+            </td>
+            <td width="75%" valign="middle">
+              <strong>Exploring RL Related 'Teaching Computers to Paint' and Decision Transformer</strong>
+              <br>
+              <p>We evaluated Decision Transformer on a real-world benchmark, NeoRL, and compared its performance with Behavior Cloning. 3,000 trajectories of painting were then collected from experts as offline datasets and we trained Decision Transformer on the dataset.</p>
             </td>
           </tr>
 
@@ -144,9 +141,9 @@
               <img src="images/robots.png" alt="prl" width="160" height="160">
             </td>
             <td width="75%" valign="middle">
-              <strong>Nationwide Robotics Competitions</strong>
+              <strong>Embedded Robotics Competitions</strong>
               <br>
-              <p>Simulating using Gazebo and focusing on the embedded drone/car system development w/wo ROS, achieving perception, planning and control. Won the national first prize twice and the second prize once. </p>
+              <p>At Huazhong University's Intelligent Robotics Team for three years, I specialized in designing embedded robotic systems, particularly for drones/cars. Specifically, my focus was on solving perception, planning, and control problems using tools including ROS and Gazebo Simulator. I was awarded first prize once and second prize once in national competitions. </p>
             </td>
           </tr>
           </tbody></table>
